@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Chilli Chill Kebab - Menu</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+/* HEADER */
+
+header{
+    background:#1b1b1b;
+    padding:20px 50px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.5);
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h1{
+    color:#ff5722;
+    font-size:32px;
+    letter-spacing:1px;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    background:#ff5722;
+}
+
+/* MAIN */
+
+main{
+    padding:50px 20px;
+    background:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1529006557810-274b9b2fc783?q=80&w=1600&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+}
+
+.menu-title{
+    text-align:center;
+    font-size:60px;
+    color:#ffcc00;
+    margin-bottom:50px;
+    text-shadow:2px 2px 10px black;
+}
+
+/* SECTION */
+
+.menu-section{
+    max-width:1100px;
+    margin:40px auto;
+    background:rgba(20,20,20,0.92);
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.section-title{
+    background:#ff5722;
+    padding:18px;
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* TABLE */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#222;
+    color:#ffcc00;
+    padding:15px;
+    font-size:20px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    font-size:18px;
+}
+
+tr:hover{
+    background:rgba(255,87,34,0.15);
+    transition:0.3s;
+}
+
+.desc{
+    color:#bbb;
+    font-size:15px;
+}
+
+/* INFO */
+
+.info-box{
+    max-width:1100px;
+    margin:40px auto;
+    background:rgba(20,20,20,0.92);
+    padding:30px;
+    border-radius:20px;
+    line-height:1.8;
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.info-box h3{
+    color:#ffcc00;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#1b1b1b;
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #ff5722;
+    font-size:18px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .menu-title{
+        font-size:40px;
+    }
+
+    .section-title{
+        font-size:24px;
+    }
+
+    td, th{
+        font-size:14px;
+        padding:10px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h1>Chilli Chill Kebab</h1>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="galeria.html">Galeria</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+
+</nav>
+</header>
+
+<main>
+
+<h2 class="menu-title">Nasze Menu 🌯🔥</h2>
+
+<!-- ROLLO -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL ROLLO
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Mały</th>
+<th>Średni</th>
+<th>Mega</th>
+<th>Super Mega 50cm</th>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB
+<div class="desc">pita, mięso, surówka, sos</div>
+</td>
+<td>18 zł</td>
+<td>24 zł</td>
+<td>30 zł</td>
+<td>35 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB Z SEREM
+<div class="desc">pita, mięso, surówka, ser, sos</div>
+</td>
+<td>20 zł</td>
+<td>26 zł</td>
+<td>32 zł</td>
+<td>37 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB AMERYKAŃSKI
+<div class="desc">pita, mięso, frytki, sos</div>
+</td>
+<td>20 zł</td>
+<td>26 zł</td>
+<td>32 zł</td>
+<td>37 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB GRECKI
+<div class="desc">pita, mięso, warzywa, ser feta, sos</div>
+</td>
+<td>22 zł</td>
+<td>27 zł</td>
+<td>34 zł</td>
+<td>39 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB SZEFA
+<div class="desc">pita, mięso, pomidor, ogórek, frytki, sos</div>
+</td>
+<td>22 zł</td>
+<td>27 zł</td>
+<td>34 zł</td>
+<td>39 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO KEBAB MIĘSNY
+<div class="desc">pita, 2x mięso, sos</div>
+</td>
+<td>25 zł</td>
+<td>30 zł</td>
+<td>36 zł</td>
+<td>42 zł</td>
+</tr>
+
+<tr>
+<td>
+ROLLO TORTILLA
+<div class="desc">tortilla, mięso, surówka, cebula, sos</div>
+</td>
+<td>-</td>
+<td>27 zł</td>
+<td>35 zł</td>
+<td>-</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- TALERZE -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL TALERZE
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>
+TALERZ NORMALNY
+<div class="desc">frytki, mięso, warzywa, surówka, sos</div>
+</td>
+<td>28 zł</td>
+</tr>
+
+<tr>
+<td>
+SUPER TALERZ
+<div class="desc">frytki, mięso, ser, warzywa, surówka, sos</div>
+</td>
+<td>33 zł</td>
+</tr>
+
+<tr>
+<td>
+TALERZ FRYTKI I MIĘSO
+<div class="desc">2x frytki, 2x mięso, sos</div>
+</td>
+<td>37 zł</td>
+</tr>
+
+<tr>
+<td>
+MEGA TALERZ
+<div class="desc">frytki osobno, 2x mięso, warzywa, sos</div>
+</td>
+<td>45 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- BOX -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL BOX
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Mały</th>
+<th>Duży</th>
+</tr>
+
+<tr>
+<td>
+KEBAB BOX
+<div class="desc">frytki, mięso, warzywa, surówka, sos</div>
+</td>
+<td>21 zł</td>
+<td>25 zł</td>
+</tr>
+
+<tr>
+<td>
+BOX FRYTKI I MIĘSO
+<div class="desc">2x frytki, 2x mięso, sos</div>
+</td>
+<td>27 zł</td>
+<td>32 zł</td>
+</tr>
+
+<tr>
+<td>
+BOX TYLKO MIĘSO
+<div class="desc">3x mięso, sos</div>
+</td>
+<td>35 zł</td>
+<td>40 zł</td>
+</tr>
+
+<tr>
+<td>
+KAPSALON
+<div class="desc">frytki, mięso, ser, sos, pomidor, ogórek</div>
+</td>
+<td>27 zł</td>
+<td>35 zł</td>
+</tr>
+
+<tr>
+<td>
+DONER BOX
+<div class="desc">frytki, mięso, warzywa, sos</div>
+</td>
+<td colspan="2">28 zł</td>
+</tr>
+
+<tr>
+<td>
+SAŁATKA Z KEBABEM
+<div class="desc">mięso, warzywa, surówki, sos</div>
+</td>
+<td colspan="2">25 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- BULKA -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL BUŁKA
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>
+BUŁKA CLASSIC
+<div class="desc">mięso, surówka, sos</div>
+</td>
+<td>25 zł</td>
+</tr>
+
+<tr>
+<td>
+BUŁKA AMERYKAŃSKA
+<div class="desc">mięso, frytki, sos</div>
+</td>
+<td>28 zł</td>
+</tr>
+
+<tr>
+<td>
+BUŁKA SZEFA
+<div class="desc">2x mięso, frytki, pomidor, ogórek</div>
+</td>
+<td>33 zł</td>
+</tr>
+
+<tr>
+<td>
+BUŁKA SAMO MIĘSO
+<div class="desc">3x mięso, sos</div>
+</td>
+<td>38 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- WEGE -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL WEGETARIAŃSKIE
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>ROLLO WEGETARIAŃSKIE MAŁE</td>
+<td>15 zł</td>
+</tr>
+
+<tr>
+<td>ROLLO WEGETARIAŃSKIE ŚREDNIE</td>
+<td>20 zł</td>
+</tr>
+
+<tr>
+<td>ROLLO WEGETARIAŃSKIE MEGA</td>
+<td>25 zł</td>
+</tr>
+
+<tr>
+<td>TALERZ FALAFEL</td>
+<td>25 zł</td>
+</tr>
+
+<tr>
+<td>SAŁATKA GRECKA</td>
+<td>18 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- FRYTKI -->
+
+<section class="menu-section">
+
+<div class="section-title">
+FRYTKI I NAPOJE
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>FRYTKI KLASYCZNE</td>
+<td>10 zł / 15 zł</td>
+</tr>
+
+<tr>
+<td>FRYTKI Z SEREM</td>
+<td>12 zł / 17 zł</td>
+</tr>
+
+<tr>
+<td>PEPSI</td>
+<td>7 zł / 10 zł</td>
+</tr>
+
+<tr>
+<td>AYRAN</td>
+<td>8 zł</td>
+</tr>
+
+<tr>
+<td>WODA GAZ / NIEGAZ</td>
+<td>4 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- KIDS -->
+
+<section class="menu-section">
+
+<div class="section-title">
+CHILLI CHILL KIDS
+</div>
+
+<table>
+
+<tr>
+<th>Produkt</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>KIDS BOX</td>
+<td>21 zł</td>
+</tr>
+
+<tr>
+<td>NUGGETS BOX</td>
+<td>18 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- DODATKI -->
+
+<section class="menu-section">
+
+<div class="section-title">
+DODATKI
+</div>
+
+<table>
+
+<tr>
+<th>Dodatek</th>
+<th>Cena</th>
+</tr>
+
+<tr>
+<td>SER</td>
+<td>2 zł</td>
+</tr>
+
+<tr>
+<td>SOS</td>
+<td>2 zł</td>
+</tr>
+
+<tr>
+<td>MIĘSO</td>
+<td>7 zł</td>
+</tr>
+
+</table>
+
+</section>
+
+<!-- INFO -->
+
+<div class="info-box">
+
+<h3>Mięso do wyboru 🍖</h3>
+
+<p>
+Wołowina-kurczak, kurczak, mieszane, 
+</p>
+
+<br>
+
+<h3>Sosy do wyboru 🥫</h3>
+
+<p>
+Słodko-kwaśny, czosnkowy, ostry, mieszany, ketchup
+</p>
+
+<br>
+
+<h3>Informacje 📌</h3>
+
+<p>
+Opakowanie na wynos +1 zł
+</p>
+
+</div>
+
+</main>
+
+<footer>
+📍 Wolności 18, Szczucin
+</footer>
+
+</body>
+</html>
