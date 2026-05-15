@@ -1,0 +1,27 @@
+
+
+:root {
+  --main-color: #c0392b;
+  --bg-color: #f4e1c1;
+  --text-color: #222;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: var(--main-color);
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
