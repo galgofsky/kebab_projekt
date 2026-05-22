@@ -1,11 +1,6 @@
 # 🌯 Projekt szkolny – Chilli Chill Kebab
 
 Projekt responsywnej strony internetowej wykonany w HTML5 i CSS3 dla lokalnego biznesu  
-## :contentReference[oaicite:0]{index=0}
-
-::contentReference[oaicite:1]{index=1}
-
-
 ---
 
 ## 📌 Opis projektu
